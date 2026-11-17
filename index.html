@@ -13,6 +13,7 @@
 <meta property="og:description" content="İhtiyacınıza göre birebir kişisel asistanlık. WhatsApp'tan yazın.">
 <meta property="og:url" content="https://nazasistan.github.io/">
 <meta property="og:locale" content="tr_TR">
+<meta property="og:image" content="https://nazasistan.github.io/og.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
@@ -82,6 +83,9 @@
   .contact .links a{text-decoration:none;opacity:.9}
   footer{padding:30px 0;font-size:14px;color:var(--soft);text-align:center}
   .fab{position:fixed;right:18px;bottom:18px;z-index:50;box-shadow:0 10px 30px -8px rgba(0,0,0,.35)}
+  .vid{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
+  .vid video{width:100%;max-width:340px;border-radius:24px;box-shadow:0 30px 60px -30px rgba(0,0,0,.45);justify-self:center;background:#f3c64a}
+  @media(max-width:760px){.vid{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
@@ -106,6 +110,18 @@
         <a href="tel:+905307115754" class="btn ghost">📞 0530 711 57 54</a>
       </div>
       <p class="loc">📍 Serdivan merkezli · Sakarya, Adapazarı, Hendek ve İzmit</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap vid">
+      <video src="naz-tanitim.mp4" poster="kapak.jpg" autoplay muted loop playsinline controls preload="metadata" aria-label="Naz Danışmanlık tanıtım videosu"></video>
+      <div>
+        <p class="eyebrow">Merhaba, ben Naz</p>
+        <h2>Serdivan'da kişisel asistanınız</h2>
+        <p class="lead">Randevu, evrak, günlük işler… İhtiyacınız ne olursa yazın, birlikte halledelim. Sakarya, Hendek ve İzmit'te hizmet veriyorum.</p>
+        <p style="margin-top:22px"><a href="https://wa.me/905307115754?text=Merhaba%2C%20bilgi%20almak%20istiyorum." class="btn" target="_blank" rel="noopener">💬 WhatsApp'tan yazın</a></p>
+      </div>
     </div>
   </section>
 
